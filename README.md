@@ -11,35 +11,6 @@ Este proyecto está diseñado para interactuar con una base de datos MySQL, sigu
 * **Testing:** Incluye **pruebas unitarias** con Spring Boot para asegurar la fiabilidad y correcto funcionamiento de los componentes.
 * **Framework:** El proyecto fue inicializado con **Spring Initializr**.
 
-## Estructura del Proyecto
-
-La siguiente es la estructura de directorios principal que sigue el proyecto:
-├── application
-│   ├── newfolder
-│   └── usecase
-│       ├── CheckDbHealthService.java
-│       └── RegistrarClienteService.java
-├── domain
-│   ├── model
-│   └── port
-│       ├── in
-│       │   └── CheckDbHealthUseCase.java
-│       └── out
-│           └── SqlHealthPort.java
-├── infrastructure
-│   ├── config
-│   ├── persistencia
-│   └── web
-│       ├── ClienteController.java
-│       └── HealthController.java
-├── resources
-│   └── application.yml
-└── test
-└── java
-└── com
-└── esfe
-└── cleanapp
-└── DbConnectionSmokeTest.java
 -------------------------------------------------------------------------------------------------------------------------
 ## Primeros Pasos
 
